@@ -4,7 +4,7 @@ Date: 03/01/2021
 
 '''
 from pyspark.sql import SparkSession
-from pyspark.sql.types import StructType,StructField, StringType, IntegerType
+from pyspark.sql.types import *
 
 #CREATING A SESSION OF PYSPARK
 spark = SparkSession.builder.getOrCreate()
